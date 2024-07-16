@@ -1,0 +1,821 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Oxanium", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+header {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 38px;
+    padding: 11px 40px;
+    font-weight: 600;
+    color: white;
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+    height: 100%;
+    padding-left: 20px;
+    position: relative;
+}
+
+
+
+
+ul li {
+    list-style-type: none;
+    font-size: 20px;
+    font-weight: 700;
+    transition: all .2s ease;
+    font-weight: 600;
+    color: white;
+    margin-right: 10px;
+
+}
+
+.icons {
+    width: 20%;
+    height: 100%;
+}
+
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://shiftup.qodeinteractive.com/wp-content/uploads/2021/12/h1-rev-img.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+
+
+ul li i {
+    font-size: 20px;
+    position: absolute;
+    right: 9%;
+    top: 30%;
+    left: 115%;
+
+}
+
+.index {
+    background-color: #FF4D24;
+    color: white;
+    height: 26px;
+    width: 17px;
+    border: none;
+    position: absolute;
+    left: 127%;
+    top: 28%;
+
+}
+
+.money {
+    position: absolute;
+    left: 120%;
+    color: white;
+
+}
+
+.Box span {
+    color: white;
+
+
+}
+
+
+
+
+.view {
+    width: auto;
+    height: auto;
+    position: absolute;
+    bottom: 90px;
+    left: 38%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.view .us {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 55px;
+    font-weight: 600;
+    padding: 1px 90px;
+}
+
+.sag {
+    font-size: 30px;
+    color: white;
+    border: none;
+    background: rgba(209, 209, 209, .25);
+    width: 250px;
+    height: 73px;
+    transition: all 1s ease;
+}
+
+
+.sag:hover {
+    background-color: #FF4D24;
+}
+
+
+
+
+
+
+
+.index_us {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    padding: 90px 0;
+    display: flex;
+    overflow: hidden;
+}
+
+.box {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-left: 70px;
+}
+
+.box h1 {
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+}
+
+.box p {
+    font-size: 100px;
+    font-weight: 800;
+    color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #333;
+
+}
+
+.box p span {
+    color: #333;
+    font-size: 120px;
+    color: white;
+}
+
+.boxes {
+    width: 30%;
+    height: 100%;
+
+
+
+}
+
+.boxes h1 {
+    color: white;
+    font-size: 33px;
+
+}
+
+.boxes h2 {
+    font-size: 17px;
+    color: #9a9a9a;
+
+}
+
+.boxes h3 {
+    color: white;
+    font-size: 30px;
+
+}
+
+.boxes ul {
+    color: white;
+
+}
+
+.boxes ul li {
+    color: #9a9a9a;
+
+}
+
+.boxes button {
+    font-size: 27px;
+    background: rgba(209, 209, 209, .25);
+    color: white;
+    width: 260px;
+    height: 60px;
+    transition: all 1s ease;
+
+}
+
+.boxes button:hover {
+    background-color: #FF4D24;
+
+
+
+
+}
+
+
+
+
+
+
+
+.homes {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: black;
+    overflow: hidden;
+}
+
+.home {
+    width: 48%;
+    height: 635px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.txts {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.txt_home {
+    color: white;
+    position: relative;
+    font-size: 40px;
+    width: 100%;
+}
+
+.home .txt_home::after {
+    position: absolute;
+    content: '';
+    background-color: #FF4D24;
+    width: 90%;
+    height: 3px;
+    left: 0;
+    bottom: -12px;
+}
+
+.home img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.home h1 {
+    font-size: 90px;
+    color: #333;
+    color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #333;
+
+}
+
+.home h2 {
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+
+
+}
+
+.home p {
+    color: rgb(126, 122, 122);
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+.pen {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+}
+
+.left_box {
+    width: 30%;
+    height: 100%;
+
+}
+
+.left_box h1 {
+    color: #EEEEEE;
+    font-weight: 600;
+    font-size: 53px;
+    padding: 120px 100px;
+}
+
+.rbox h1 span {
+    color: #FF4D24;
+}
+
+.vidio {
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vidio iframe {
+
+
+
+
+    width: 100% !important;
+    height: 100vh !important;
+}
+
+.slider {
+    width: 100%;
+    height: auto;
+    background-color: black !important;
+    outline: none;
+    overflow: hidden;
+}
+
+.qodef-svg--slider-arrow-left {
+    color: white !important;
+}
+
+
+
+
+
+.right_box {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.right_box .rbox {
+    width: 30%;
+    height: 300px;
+    margin: 20px;
+}
+
+
+.right_box .rbox p {
+    font-size: 23px;
+    color: #6F6F6F;
+    font-family: "Sarabun", sans-serif;
+
+
+}
+
+.right_box .rbox h1 {
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: "Sarabun", sans-serif;
+}
+
+.phone {
+    width: 50%;
+    height: 100%;
+
+}
+
+
+.phone h1 {
+    color: white;
+    font-size: 60px;
+
+
+
+}
+
+
+
+.music {
+    width: 50%;
+    height: 100%;
+
+    flex-direction: column;
+
+}
+
+.music {
+    flex-direction: column;
+    color: #949494;
+
+}
+
+.music h1 {
+    font-size: 28px;
+
+
+
+}
+
+.music button {
+    font-size: 30px;
+    width: 200px;
+    height: 60px;
+    color: white;
+    background: rgba(209, 209, 209, .25);
+    transition: all 1s ease;
+    font-size: 26px;
+
+}
+
+.music button:hover {
+    background-color: #FF4D24;
+
+
+
+}
+
+.lorix {
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding: 70px 30px;
+    overflow: hidden;
+}
+
+.library {
+    width: 100%;
+    height: 40vh;
+    background-color: #FF4D24;
+    overflow: hidden;
+}
+
+.numbers {
+    display: flex;
+}
+
+
+
+.number {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 110px 100px;
+    transition: all .3s ease;
+}
+
+.marco {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.56), rgba(0, 0, 0, 0.89)), url(' https://shiftup.qodeinteractive.com/wp-content/uploads/2021/10/h1-img7.png ');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+
+
+}
+
+.cover {
+    display: flex;
+
+
+
+}
+
+.center {
+    width: 25%;
+    height: 100vh;
+    flex-direction: column;
+
+}
+
+
+.cover h1 {
+    color: white;
+    font-size: 60px;
+    font-weight: 600;
+
+}
+
+.center h1 {
+    color: white;
+    font-size: 20px;
+    padding: 80px 100px;
+
+
+}
+
+.center span {
+    color: #FF4D24;
+
+
+
+}
+
+.center h2 {
+    color: white;
+    font-size: 60px;
+    padding: 1px 90px;
+
+
+}
+
+.center h3 {
+    color: rgb(118, 115, 115);
+    font-size: 25px;
+    padding: 1px 90px;
+
+
+}
+
+.center h4 {
+    color: rgb(118, 115, 115);
+    font-size: 25px;
+    padding: 1px 90px;
+
+
+}
+
+
+.center h5 {
+    color: rgb(118, 115, 115);
+    font-size: 25px;
+    padding: 1px 90px;
+
+
+}
+
+.center h6 {
+    color: rgb(118, 115, 115);
+    font-size: 25px;
+    padding: 1px 90px;
+
+
+}
+
+.ev {
+    color: rgb(118, 115, 115);
+    font-size: 25px;
+    padding: 1px 90px;
+
+
+
+
+
+}
+
+footer {
+    width: 100%;
+    height: 60vh;
+    background-color: #161616;
+    display: flex;
+
+}
+
+.first {
+    width: 40%;
+    height:100%;
+    color: white;
+    padding: 1px 100px;
+
+}
+
+.first h2 {
+    color: #9A9A9A;
+    font-size: 23px;
+
+
+}
+
+.first h3 {
+    color: #9A9A9A;
+    font-size: 20px;
+
+
+}
+
+.first h4 {
+    color: white;
+    font-size: 30px;
+
+
+
+}
+
+.first h5 {
+    font-size: 20px;
+    color: #9A9A9A
+}
+
+.first h6 {
+    color: white;
+    font-size: 21px;
+
+
+}
+
+.center button {
+    background: none;
+    color: white;
+    border: none;
+    padding: 1px 90px;
+    font-size: 14px;
+}
+
+.center button span {
+
+    color: white;
+    font-size: 32px;
+}
+
+.second {
+    width: 20%;
+    height: auto;
+    color: #828282;
+}
+
+.second h1 {
+    font-size: 23px;
+    color: white;
+}
+
+.second ul li {
+    color: #828282;
+}
+
+.second ul {
+    padding: 0;
+}
+
+.infu {
+    background-color: 1161616;
+}
+
+.infu h1 {
+    font-size: 20px;
+    color: #8C8C8C;
+
+}
+
+.infu h1 span {
+    color: #8C8C8C;
+
+}
+
+
+
+
+
+
+.CONTACT {
+    width: 100%;
+    height: 60vh;
+    background-color: #161616;
+}
+
+
+
+.CONTACT h1 {
+
+    color: #9A9A9A;
+    font-size: 20px;
+    padding: 62px 31px;
+}
+
+.CONTACT h1 span {
+    color: #FF4D24;
+}
+
+.CONTACT h2 {
+    color: white;
+    font-size: 160px;
+    padding: 80px 100px;
+}
+
+.our {
+    width: 100%;
+    height: 70vh;
+    background-color: #161616;
+    padding-top: 100px;
+}
+
+.new {
+    width: 50%;
+    height: 100%;
+    flex-direction: column;
+}
+
+.new h1 {
+    color: white;
+    padding: 1px 30px;
+}
+
+.new h2 {
+    color: #6F6F6F;
+    padding: 1px 30px;
+    font-size: 21px;
+}
+
+
+
+.new h3 {
+    color: #6F6F6F;
+    font-size: 23px;
+    padding: 1px 30px;
+}
+
+.new h4 {
+    padding: 1px 30px;
+    color: white;
+    font-size: 46px;
+}
+
+.new h5 {
+    color: #6F6F6F;
+    font-size: 27px;
+    padding: 1px 37px;
+}
+
+.new p {
+    padding: 1px 42px;
+    color: white;
+
+}
+
+.news {
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.new input {
+    width: 98%;
+    height: 100%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: white;
+    border-bottom: 3px solid rgb(247, 58, 1);
+    padding-bottom: 15px;
+}
+
+.new button {
+    outline: none;
+    border: none;
+    background-color: #343434;
+    color: white;
+    font-size: 25px;
+    width: 300px;
+    height: 80px;
+    transition: all 1s ease;
+}
+
+.new button:hover {
+    background-color: #FF4D24;
+}
+
+.infu a{
+text-decoration: none;
+
+
+
+}
+
+
+
+
+
